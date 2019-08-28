@@ -23,5 +23,7 @@ Person_Topic will be used for this example.
 ### Option 1: Spin up Consumer in console
 * ```~/kafka/bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic Person_Topic --from-beginning```
 
-### Option 2: Run Consumer locally
-* ```Incoming details```
+### Option 2: Run Spring Boot Consumer locally
+* [Link to kafka-consumer repo](https://github.com/jeroberts/kafka-consumer) 
+* ```cd kafka-consumer```  
+```mvn spring-boot:run```
